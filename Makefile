@@ -13,8 +13,10 @@ override CFLAGS += \
 -Wall \
 -Wextra \
 -Wno-incompatible-pointer-types \
+-Wno-unused-variable \
+-Wno-unused-but-set-variable \
+-Wno-deprecated-non-prototype \
 -Wno-multichar \
-# -Wno-unused-variable \
 -Wno-unused-parameter \
 -Wno-missing-field-initializers \
 -I./$(INCDIR)
